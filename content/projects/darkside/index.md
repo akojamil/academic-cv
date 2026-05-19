@@ -10,6 +10,6 @@ tags:
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+DarkSide-20k, a tonne-scale liquid argon dark matter experiment at Gran Sasso National Laboratory, targeting WIMP cross-sections deep into the neutrino fog.
 
 <!--more-->
