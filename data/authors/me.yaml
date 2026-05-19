@@ -20,17 +20,12 @@ bio: |
   advancing the understanding of complex physical systems.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Colorado State University
+    url: https://www.colostate.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: mailto:ako.jamil@colostate.edu
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/example/
   - icon: academicons/google-scholar
@@ -39,14 +34,13 @@ links:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Neutrino Properties
+  - Dark Matter
+  - Noble Liquid Detectors
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
+  - degree: PhD Physics
+    institution: Yale University
     start: 2015-09-01
     end: 2019-06-30
     summary: |
