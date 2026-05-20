@@ -1,0 +1,45 @@
+{{- $slugs := slice "me" "postdoc" "grad-student" "undergrad" -}}
+
+{{- $members := slice -}}
+{{- range $slugs -}}
+  {{- $member := index site.Data.authors . -}}
+  {{- if $member -}}
+    {{- $members = $members | append $member -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $members) 0 -}}
+<ul>
+  {{- range $members -}}
+    {{- $displayName := "" -}}
+    {{- with .name -}}
+      {{- with .display -}}
+        {{- $displayName = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if eq $displayName "" -}}
+      {{- $displayName = .slug -}}
+    {{- end -}}
+
+    {{- $emailUrl := "" -}}
+    {{- with .links -}}
+      {{- range . -}}
+        {{- with .url -}}
+          {{- if hasPrefix . "mailto:" -}}
+            {{- $emailUrl = . -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    <li>
+      <strong>{{ $displayName }}</strong>{{ with .role }} — {{ . }}{{ end }}
+      {{- if ne $emailUrl "" -}}
+        ({{- $email := replace $emailUrl "mailto:" "" -}}<a href="{{ $emailUrl }}">{{ $email }}</a>)
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ul>
+{{- else -}}
+<p>No group members found.</p>
+{{- end -}}

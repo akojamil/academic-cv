@@ -1,0 +1,36 @@
+schema: hugoblox/author/v1
+slug: undergrad
+is_owner: false
+name:
+  display: Undergraduate Student Name
+  given: Undergraduate
+  family: Student
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: ""
+role: Undergraduate Researcher
+bio: |
+  Placeholder bio for an undergraduate researcher.
+
+affiliations:
+  - name: Colorado State University
+    url: https://www.colostate.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:undergrad@example.edu
+
+interests:
+  - Data Analysis
+  - Instrumentation
+education:
+  - degree: BS Physics (in progress)
+    institution: Colorado State University
+    start: 2024-08-15
+experience: []
+skills: []
+languages: []
+awards: []
