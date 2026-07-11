@@ -1,5 +1,6 @@
 ---
 title: DarkSide-20k
+date: 2022-09-01
 tags:
   - Dark Matter
   - Liquid Argon
