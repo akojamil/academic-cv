@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: grad-student
 is_owner: false
 name:
-  display: Graduate Student Name
+  display: John Doe
   given: Graduate
   family: Student
   alternate: ''
@@ -15,26 +15,26 @@ role: Graduate Student
 bio: |
   Placeholder bio for a graduate student.
 
-affiliations:
-  - name: Colorado State University
-    url: https://www.colostate.edu/
+# affiliations:
+#   - name: Colorado State University
+#     url: https://www.colostate.edu/
 
-links:
-  - icon: at-symbol
-    url: mailto:grad.student@example.edu
+# links:
+#   - icon: at-symbol
+#     url: mailto:grad.student@example.edu
 
-interests:
-  - Neutrino Properties
-  - Detector Calibration
-education:
-  - degree: BS Physics
-    institution: University Name
-    start: 2019-09-01
-    end: 2023-05-31
-  - degree: PhD Physics (in progress)
-    institution: Colorado State University
-    start: 2023-08-15
-experience: []
-skills: []
-languages: []
-awards: []
+# interests:
+#   - Neutrino Properties
+#   - Detector Calibration
+# education:
+#   - degree: BS Physics
+#     institution: University Name
+#     start: 2019-09-01
+#     end: 2023-05-31
+#   - degree: PhD Physics (in progress)
+#     institution: Colorado State University
+#     start: 2023-08-15
+# experience: []
+# skills: []
+# languages: []
+# awards: []

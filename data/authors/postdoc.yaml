@@ -15,23 +15,19 @@ role: Postdoctoral Researcher
 bio: |
   Placeholder bio for a postdoctoral researcher.
 
-affiliations:
-  - name: Colorado State University
-    url: https://www.colostate.edu/
+# affiliations:
+#   - name: Colorado State University
+#     url: https://www.colostate.edu/
 
-links:
-  - icon: at-symbol
-    url: mailto:postdoc@example.edu
+# links:
+#   - icon: at-symbol
+#     url: mailto:postdoc@example.edu
 
-interests:
-  - Dark Matter
-  - Noble Liquid Detectors
-education:
-  - degree: PhD Physics
-    institution: University Name
-    start: 2018-09-01
-    end: 2023-06-30
-experience: []
-skills: []
-languages: []
-awards: []
+# interests:
+#   - Dark Matter
+#   - Noble Liquid Detectors
+# education:
+#   - degree: PhD
+#     institution: Stanford University, 2022
+    # start: 2021
+    # end: 2027
